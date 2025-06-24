@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #222;
+    color: #fff;
+    padding: 40px;
+}
+#fundo{
+    background-color:#444 ;
+    padding: 50px;
+    border-radius: 8px;
+}
+
+
+h1 {
+    border-radius: 9px;
+    font-size: 3em;
+    background-color: #4CAF50;
+}
+
+#points {
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+#valorupgrade1,
+#valorupgrade2,
+#valorupgrade3 {
+    color: red;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#click-btn {
+    background: #4CAF50;
+    color: white;
+}
+
+.upgrade {
+    background: #616161;
+    color: white;
+}
